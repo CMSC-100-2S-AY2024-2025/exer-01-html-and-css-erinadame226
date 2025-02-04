@@ -1,24 +1,15 @@
-.cont {
-    background-color: pink;
-
-}
-
-.body {
-    background-color: yellow;
-    
-}
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #333;
+    background-color: #cb7a88;
     color:white;
+    border-radius: 10px;
 }
 
 .header-text {
-    max-width: 50%;
+    font-family: "Georgia", serif;
 }
 
 .header-image img {
@@ -33,28 +24,32 @@ header {
 }
 
 .projects-container {
-    display: flex;               /* Flexbox for horizontal layout */
-    justify-content: space-between; /* Equal spacing between projects */
-    gap: 20px;                    /* Optional gap for spacing between projects */
+    display: flex;              
+    justify-content: space-between; 
+    gap: 20px;                    
 }
 
 .project {
-    background-color: #f4f4f4;
+    background-color: #f5e1e1;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 30%;                   /* Adjust width of each project */
-    min-width: 250px;             /* Minimum width to avoid shrinking too much */
+    width: 30%;                   
+    min-width: 250px;             
     box-sizing: border-box;
 }
 
 .project img {
-    width: 100%;                  /* Make the image fill its container */
+    width: 100%;                  
     height: auto;
     border-radius: 10px;
 }
-
+.project h2 {
+    font-size: 40px;
+    justify-content: left;
+}
 .project h3 {
+    font-size: 20px;
     margin: 10px 0;
 }
 
@@ -62,12 +57,13 @@ header {
     font-size: 14px;
 }
 
-/* Styling for the Autobiography section */
+
 #autobiography {
     padding: 20px;
     text-align: center;
-    background-color: #f8f8f8;
+    background-color: #f5e1e1;
     margin-bottom: 40px;
+    border-radius: 20px;
 }
 
 #autobiography p {
@@ -78,7 +74,7 @@ header {
     margin: 0 auto;
 }
 
-/* Styling for the Skills section */
+
 #skills {
     padding: 20px;
     text-align: center;
@@ -86,17 +82,17 @@ header {
 
 .skills-container {
     display: flex;
-    justify-content: space-evenly;  /* Distribute skill blocks evenly */
+    justify-content: space-evenly;  
     gap: 20px;
-    flex-wrap: wrap;                /* Allow wrapping on smaller screens */
+    flex-wrap: wrap;                
 }
 
 .skill {
-    background-color: #f4f4f4;
+    background-color: #f5e1e1;
     padding: 15px;
     border-radius: 10px;
-    width: 22%;                     /* Each skill box takes 22% of container width */
-    min-width: 200px;               /* Ensure they don't shrink too much */
+    width: 22%;                     
+    min-width: 200px;               
     box-sizing: border-box;
 }
 
@@ -109,7 +105,7 @@ header {
     font-size: 14px;
     color: #666;
 }
-/* Footer Styling */
+
 footer {
     background-color: #333;
     color: white;
@@ -124,7 +120,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    flex-wrap: wrap; 
 }
 
 .footer-left, .footer-right {
@@ -144,14 +140,6 @@ footer {
     color: #ccc;
 }
 
-.footer-left a {
-    text-decoration: none;
-}
-
-.footer-right p {
-    margin: 5px 0;
-    font-size: 14px;
-}
 
 button {
     background-color: #f4f4f4;
@@ -166,15 +154,6 @@ button {
 
 button:hover {
     background-color: #ddd;
-}
-
-footer a {
-    color: #ccc;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
 }
 
 
